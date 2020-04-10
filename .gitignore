@@ -1,3 +1,10 @@
 .idea/* 
 Main.py
-__pycache__/*
+__pycache__
+Setup.py command.txt
+build/*
+Collections.egg-info
+Collezioni.egg-info
+dist
+venv/*
+Setup.py

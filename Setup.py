@@ -4,8 +4,8 @@ with open("README.md", "r") as fh:
     long_description = fh.read()
 
 setup(
-    name="Collections", # Replace with your own username
-    version="1.0",
+    name="Collezioni", # Replace with your own username
+    version="1.1",
     author="Pasulo Daniele",
     author_email="daniele.pasulo@marconirovereto.coom",
     description="A small example package with some data structures",

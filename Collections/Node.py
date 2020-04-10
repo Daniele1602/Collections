@@ -10,7 +10,7 @@ class Node:
         s = str(self.__data) + "  "
         if self.__next != None:
             s + str(self.__next)
-        return s
+        return s.strip()
 
     def getdata(self) -> int:
         return self.__data
@@ -20,3 +20,6 @@ class Node:
 
     def getnext(self) -> Node:
         return self.__next
+
+    def __repr__(self):
+        return str(self)
