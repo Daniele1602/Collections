@@ -9,3 +9,4 @@ dist
 venv/*
 Setup.py
 setuptools.setup structure.txt
+*egg-info/*
