@@ -1,17 +1,21 @@
+
 from setuptools import setup, find_packages
 
 with open("README.md", "r") as fh:
     long_description = fh.read()
 
 setup(
-    name="Collezioni", # Replace with your own username
+    name="collections_example", # Replace with your own username
     version="1.1",
     author="Pasulo Daniele",
-    author_email="daniele.pasulo@marconirovereto.coom",
+    author_email="daniele.pasulo@marconirovereto.com",
     description="A small example package with some data structures",
     long_description=long_description,
     long_description_content_type="text/markdown",
     url="https://github.com/Daniele1602/Collections.git",
+    project_urls={
+        "GitHub":"https://github.com/Daniele1602/Collections.git"
+    },
     packages=find_packages(),
     classifiers=[
         "Programming Language :: Python :: 3",

@@ -15,6 +15,13 @@ class ArrayList:
     def __add__(self, data):
         self.__data.append(data)
         return self
+
+    def __sub__(self, data):
+        if data in self.__data:
+            self.__data.remove(data)
+
+    def __contains__(self, data):
+        return data in self.__data
         
     def __len__(self):
         return len(self.__data)

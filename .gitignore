@@ -8,3 +8,4 @@ Collezioni.egg-info
 dist
 venv/*
 Setup.py
+setuptools.setup structure.txt
